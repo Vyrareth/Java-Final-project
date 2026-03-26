@@ -1,0 +1,9 @@
+User clicks something on the website
+        ↓
+app.js makes a fetch() call to your Java backend
+        ↓
+MovieController.java receives it
+        ↓
+TMDbService.java calls TMDb API with your key
+        ↓
+data comes back → sent to the frontend → displayed
