@@ -1,0 +1,21 @@
+JAVA-FINAL/
+├── pom.xml                          ← Maven config, dependencies
+└── src/
+    └── main/
+        ├── java/
+        │   └── com/moviepicker/
+        │       ├── MoviePickerApplication.java    ← starts the app
+        │       ├── controller/
+        │       │   └── MovieController.java       ← API endpoints your frontend calls
+        │       ├── service/
+        │       │   └── TMDbService.java           ← handles TMDb API calls
+        │       └── model/
+        │           └── Movie.java                 ← data structure
+        └── resources/
+            ├── application.properties             ← stores your TMDb API key
+            └── static/
+                ├── index.html                     ← your website
+                ├── css/
+                │   └── style.css
+                └── js/
+                    └── app.js                     ← calls your Java backend
